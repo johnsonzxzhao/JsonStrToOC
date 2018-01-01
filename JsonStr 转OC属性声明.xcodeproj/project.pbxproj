@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		359E7D771FF94CA20083C042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E7D761FF94CA20083C042 /* main.m */; };
+		359E7D821FF9D6C50083C042 /* ZXJsonString.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E7D811FF9D6C50083C042 /* ZXJsonString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		359E7D731FF94CA20083C042 /* JsonStr 转OC属性声明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JsonStr 转OC属性声明"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359E7D761FF94CA20083C042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359E7D801FF9D6C50083C042 /* ZXJsonString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXJsonString.h; sourceTree = "<group>"; };
+		359E7D811FF9D6C50083C042 /* ZXJsonString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJsonString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				359E7D761FF94CA20083C042 /* main.m */,
+				359E7D801FF9D6C50083C042 /* ZXJsonString.h */,
+				359E7D811FF9D6C50083C042 /* ZXJsonString.m */,
 			);
 			path = "JsonStr 转OC属性声明";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359E7D821FF9D6C50083C042 /* ZXJsonString.m in Sources */,
 				359E7D771FF94CA20083C042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
